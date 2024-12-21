@@ -15,34 +15,91 @@
         <form>
             <div>
                 <label for="texto">Nome: </label>
-                <input type="text" id="texto" name="nome">
+                <input type="text" id="texto" name="nome" placeholder="Somente e-mail ...">
             </div>
+            <br>
 
             <div>
                 <label for="senha">Senha: </label>
-                <input type="password" id="senha" name="senha" id="">
+                <input type="password" id="senha" name="senha" placeholder="Senha ...">
             </div>
+            <br>
 
             <div>
                 <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" placeholder="email@gmail.com">
             </div>
+            <br>
 
             <div>
                 <label for="data">Data de Nascimento: </label>
                 <input type="date" id="data" name="data">
             </div>
+            <br>
 
             <div>
                 <label for="hora">Horário: </label>
                 <input type="time" id="hora" name="hora">
             </div>
+            <br>
 
             
             <div>
                 <label for="hora">Arquivo: </label>
                 <input type="file" id="file" name="file">
             </div>
+            <br>
+
+            <div>
+                <label for="qualquer">Color: </label>
+                <input type="color" id="qualquer" name="qualquer">
+            </div>
+            <br>
+
+            <div>
+                <label for="faixa">Barra de Cor: </label>
+                <input type="range" id="faixa" name="faixa" value="50" min="20" max="100">
+            </div>
+            <br>
+
+            <div>
+                <label for="caixa-de-selecao">Caixa de Seleção: </label>
+                <input type="checkbox" id="caixa-de-selecao" name="caixa-de-selecao">
+            </div>
+            <br>
+
+            <div>
+                <label for="selecao">Seleção: </label> <!-- permite selecionar apenas uma-->
+                <input type="radio" id="selecao" name="selecao">
+            </div>
+            <br>
+
+            <div>
+                <label for="limpar-formulario"></label> 
+                <input type="reset" id="selecao" name="limpar-formulario" value="Limpar Formulário">
+            </div>
+            <br>
+
+            <div>
+                <!-- Como esse exemplo é de submit, não precisaremos do label -->
+                <input type="submit" id="enviar-formulario" name="enviar-formulario">
+            </div>
+            <br>
+
+            <div>
+                <textarea name="bio" id="bio" cols="60" rows="10"></textarea>
+            </div>            
+
+            <div>
+                <select name="select " id="select ">
+                    <option value="" disabled selected>Selecione uma das opções ...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Tranferência</option>
+                </select>
+            </div>
+
+            
                       
 
         </form>
